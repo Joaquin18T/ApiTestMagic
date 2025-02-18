@@ -3,11 +3,11 @@
 class Conexion{
 
   //1. Almacenamos los datos de conexión
-  private $servidor = "sql10.freesqldatabase.com";
+  private $servidor = "mysql.railway.internal";
   private $puerto = "3306";
-  private $baseDatos = "sql10763302";
-  private $usuario = "sql10763302";
-  private $clave = "PEKh8MnTRy";
+  private $baseDatos = "railway";
+  private $usuario = "root";
+  private $clave = "KRdGgULwtmePwkFaANioyvdWjqAYYcTn";
 
   public function getConexion(){
 
